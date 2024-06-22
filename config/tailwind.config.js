@@ -29,6 +29,28 @@ module.exports = {
     require('daisyui')
   ],
   daisyui: {
-    themes: ["light", "dark", "cupcake", "dracula"],
+    themes: [
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "retro",
+      "valentine",
+      "halloween",
+      "lofi",
+      "pastel",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset",
+    ],
   }
 }

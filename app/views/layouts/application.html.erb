@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="cupcake">
+<html data-theme="dark">
   <head>
     <title>RailsPortfolio</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,11 +9,14 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    <script src="https://kit.fontawesome.com/49ad6a32f0.js" crossorigin="anonymous"></script>
   </head>
 
   <body class="">
     <main class="container w-default">
       <%= render 'layouts/banner' %>
+      <%= render 'layouts/about' %>
+      <%= render 'layouts/tabs' %>
       <%= yield %>
     </main>
   </body>
