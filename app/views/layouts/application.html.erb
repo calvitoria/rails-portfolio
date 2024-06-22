@@ -11,8 +11,9 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main class="container mx-auto mt-28 px-5 flex">
+  <body class="bg-neutral-900">
+    <main class="container w-default">
+      <%= render 'layouts/banner' %>
       <%= yield %>
     </main>
   </body>

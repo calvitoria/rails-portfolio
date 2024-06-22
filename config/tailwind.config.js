@@ -10,8 +10,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
       },
+      width: {
+        'default': '800px',
+        'medium': '600px',
+      }
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [
