@@ -1,0 +1,12 @@
+<div class="container w-medium mt-8">
+  <nav class="tabs">
+    <a href="/home/feed"
+      class="tab <%= current_page?(controller: 'home', action: 'feed') ? 'text-lg text-neutral-content font-bold border-b-4 border-accent' : 'text-lg text-neutral-content border-b-2 border-neutral text-gray-500 hover:text-gray-700 transition duration-150 ease-in-out' %>"
+    >
+      Feed
+    </a>
+    <a href="/home/about" class="tab <%= current_page?(controller: 'home', action: 'about') ? 'text-lg text-neutral-content font-bold border-b-4 border-accent' : 'text-lg text-neutral-content border-b-2 border-neutral text-gray-500 hover:text-gray-700 transition duration-150 ease-in-out' %>">About</a>
+    <a href="/home/projects" class="tab <%= current_page?(controller: 'home', action: 'projects') ? 'text-lg text-neutral-content font-bold border-b-4 border-accent' : 'text-lg text-neutral-content border-b-2 border-neutral text-gray-500 hover:text-gray-700 transition duration-150 ease-in-out' %>">Projects</a>
+    <a href="/home/guestbook" class="tab <%= current_page?(controller: 'home', action: 'guestbook') ? 'text-lg text-neutral-content font-bold border-b-4 border-accent' : 'text-lg text-neutral-content border-b-2 border-neutral text-gray-500 hover:text-gray-700 transition duration-150 ease-in-out' %>">Guestbook</a>
+  </nav>
+</div>
