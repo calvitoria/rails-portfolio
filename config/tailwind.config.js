@@ -10,8 +10,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ['Helvetica Neue', ...defaultTheme.fontFamily.sans],
       },
+      width: {
+        'default': '800px',
+        'medium': '600px',
+      }
+    },
+    container: {
+      center: true,
     },
   },
   plugins: [
@@ -19,5 +26,31 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
     require('@tailwindcss/container-queries'),
-  ]
+    require('daisyui')
+  ],
+  daisyui: {
+    themes: [
+      "dark",
+      "cupcake",
+      "bumblebee",
+      "emerald",
+      "corporate",
+      "retro",
+      "valentine",
+      "halloween",
+      "lofi",
+      "pastel",
+      "luxury",
+      "dracula",
+      "cmyk",
+      "autumn",
+      "business",
+      "night",
+      "coffee",
+      "winter",
+      "dim",
+      "nord",
+      "sunset",
+    ],
+  }
 }
