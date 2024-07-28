@@ -6,12 +6,8 @@ class HomeController < ApplicationController
     @posts = Post.all
   end
 
-  def about
-    # Action for the About tab
-  end
-
   def projects
-    # Action for the Projects tab
+    @projects = Project.all
   end
 
   def guestbook

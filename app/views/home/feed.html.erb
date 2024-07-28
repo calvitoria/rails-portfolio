@@ -1,11 +1,12 @@
 <div class="container w-medium mt-8">
   <% @posts.each do |post| %>
-    <div class="hover:bg-neutral shadow-md rounded-md overflow-hidden">
-      <div class="flex p-4">
-        <img src="https://i.pinimg.com/736x/1d/81/7d/1d817d4a41571d4323860de7653d0935.jpg" alt="Profile Picture" class="h-14 w-14 rounded-full mr-2">
+    <div class="hover:bg-neutral shadow-md rounded-md overflow-hidden p-4">
+      <div class="flex pb-2">
+        <img src="https://github.com/user-attachments/assets/ccebd1ba-1b9e-4d61-9ffc-5caefad25c3f" alt="Profile Picture" class="h-14 w-14 rounded-full mr-2">
+        
         <div>
-          <div class="text-lg font-semibold">Vitech 🌸</div>
-          <div class="text-md text-gray-600">@calvitoria</div>
+          <span class="text-lg font-semibold">Vitória Calvi 🌸</span>
+          <p class="text-md text-gray-600">@calvitoria</p>
         </div>
 
         <div>
@@ -15,22 +16,14 @@
         </div>
       </div>
 
-      <div class="px-4 pb-2">
+      <div class="pb-2">
         <h2 class="text-2xl font-medium mb-2"> <%= post.title %> </h2>
         <p class="text-lg text-neutral-content leading-tight">
           <%= post.body %>
         </p>
       </div>
 
-      <div>
-        <img src="https://i.pinimg.com/736x/87/9c/11/879c11f32cf47d51b57e1b9c648bc614.jpg" alt="post picture" class="w-fit rounded-lg p-4">
-      </div>
-
-      <div class="flex flex-row-reverse	px-4">
-        <button class="text-gray-500 hover:text-gray-600 focus:outline-none">
-          <i class="fa-solid fa-link"></i>
-        </button>
-      </div>
+      <img src="<%= post.image_url %>" alt="post picture" class="w-fit rounded-lg mt-4">
     </div>
   <% end %>
 </div>
