@@ -25462,3 +25462,1803 @@ Processing by HomeController#about as HTML
 Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 6288)
 
 
+Started GET "/home/projects" for ::1 at 2024-07-28 17:44:33 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (1.0ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 2.4ms | Allocations: 898)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.5ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6975)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 1.5ms | Allocations: 7214)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 17:45:14 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 151)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1026)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.2ms | Allocations: 25199)
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 25962)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:05:49 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1032)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 25234)
+Completed 200 OK in 20ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 25998)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:11 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1038)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 25117)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms | Allocations: 25881)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:08:15 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 6.8ms | Allocations: 4570)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 13.6ms | Allocations: 10662)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 1.4ms | Allocations: 11332)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:17 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 6074)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6301)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:28 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1044)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 25123)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 25887)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:35 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1050)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 25242)
+Completed 200 OK in 17ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 26005)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:47 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 166)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1056)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 25266)
+Completed 200 OK in 15ms (Views: 15.2ms | ActiveRecord: 0.0ms | Allocations: 26030)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:08:53 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 7.1ms | Allocations: 4551)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 10626)
+Completed 200 OK in 17ms (Views: 13.6ms | ActiveRecord: 1.6ms | Allocations: 11296)
+
+
+Started GET "/home/guestbook" for ::1 at 2024-07-28 18:08:54 -0300
+Processing by HomeController#guestbook as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 752)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#guestbook is missing a template for request formats: text/html):
+  
+actionpack (7.1.3.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.3.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.5) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.5) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.3.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.4) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.4) lib/rack/etag.rb:29:in `call'
+rack (3.1.4) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.4) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.4) lib/rack/method_override.rb:28:in `call'
+rack (3.1.4) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.4) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/home/projects" for ::1 at 2024-07-28 18:08:55 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 0.8ms | Allocations: 616)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 6697)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.1ms | Allocations: 6936)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:08:56 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.5ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 6058)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 6284)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:08:56 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3546)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 9622)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.4ms | Allocations: 10148)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:10:42 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 1.7ms | Allocations: 617)
+  Rendered layouts/_banner.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.7ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 6695)
+Completed 200 OK in 16ms (Views: 14.9ms | ActiveRecord: 0.1ms | Allocations: 6934)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:10:46 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6646)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 6884)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:10:48 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6068)
+Completed 200 OK in 5ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6294)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:10:48 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 0.7ms | Allocations: 617)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6672)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.1ms | Allocations: 6910)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:10:49 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 6066)
+Completed 200 OK in 5ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6292)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:11:02 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 4.6ms | Allocations: 4532)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 172)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1062)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 29610)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 1.0ms | Allocations: 30951)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:11:18 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 7.6ms | Allocations: 4551)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 187)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1068)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 29661)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 1.0ms | Allocations: 30998)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:12:46 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 5.3ms | Allocations: 4532)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 187)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1074)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 29537)
+Completed 200 OK in 22ms (Views: 19.8ms | ActiveRecord: 1.1ms | Allocations: 30879)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:12:49 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3526)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 9604)
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.4ms | Allocations: 10130)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:12:51 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 0.8ms | Allocations: 617)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 6680)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.1ms | Allocations: 6919)
+
+
+Started GET "/home/projects" for ::1 at 2024-07-28 18:13:27 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 5.0ms | Allocations: 4532)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.4ms | Allocations: 187)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1080)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.8ms | Allocations: 29629)
+Completed 200 OK in 24ms (Views: 20.7ms | ActiveRecord: 1.2ms | Allocations: 30970)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:13:34 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 6239)
+Completed 200 OK in 9ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6467)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:14:01 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 6095)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 6322)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:14:02 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 3.6ms | Allocations: 3569)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 9656)
+Completed 200 OK in 13ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 11767)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:14:26 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 162)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1086)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 25273)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms | Allocations: 26037)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:16:00 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 187)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1092)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 25186)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 25950)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:16:14 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 9961)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.9ms | Allocations: 10631)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:16:19 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6648)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6887)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:16:20 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.6ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 12.3ms | Allocations: 6076)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 6302)
+
+
+Started GET "/home/guestbook" for ::1 at 2024-07-28 18:16:23 -0300
+Processing by HomeController#guestbook as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 752)
+
+
+  
+ActionController::MissingExactTemplate (HomeController#guestbook is missing a template for request formats: text/html):
+  
+actionpack (7.1.3.4) lib/action_controller/metal/implicit_render.rb:47:in `default_render'
+actionpack (7.1.3.4) lib/action_controller/metal/basic_implicit_render.rb:7:in `send_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:224:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rendering.rb:165:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:259:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+turbo-rails (2.0.5) lib/turbo-rails.rb:24:in `with_request_id'
+turbo-rails (2.0.5) app/controllers/concerns/turbo/request_id_tracking.rb:10:in `turbo_tracking_request_id'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+actiontext (7.1.3.4) lib/action_text/rendering.rb:23:in `with_renderer'
+actiontext (7.1.3.4) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `instance_exec'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:141:in `run_callbacks'
+actionpack (7.1.3.4) lib/abstract_controller/callbacks.rb:258:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/rescue.rb:25:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:74:in `block in process_action'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.1.3.4) lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+activesupport (7.1.3.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.1.3.4) lib/action_controller/metal/instrumentation.rb:73:in `process_action'
+actionpack (7.1.3.4) lib/action_controller/metal/params_wrapper.rb:261:in `process_action'
+activerecord (7.1.3.4) lib/active_record/railties/controller_runtime.rb:32:in `process_action'
+actionpack (7.1.3.4) lib/abstract_controller/base.rb:160:in `process'
+actionview (7.1.3.4) lib/action_view/rendering.rb:40:in `process'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.4) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.4) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.1.4) lib/rack/tempfile_reaper.rb:20:in `call'
+rack (3.1.4) lib/rack/etag.rb:29:in `call'
+rack (3.1.4) lib/rack/conditional_get.rb:31:in `call'
+rack (3.1.4) lib/rack/head.rb:15:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/permissions_policy.rb:36:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/http/content_security_policy.rb:33:in `call'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:272:in `context'
+rack-session (2.0.0) lib/rack/session/abstract/id.rb:266:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (7.1.3.4) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.4) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.2.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.4) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.4) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.5.1) lib/sprockets/rails/quiet_assets.rb:17:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.1.4) lib/rack/method_override.rb:28:in `call'
+rack (3.1.4) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.1.4) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.4) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+railties (7.1.3.4) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/home/projects" for ::1 at 2024-07-28 18:16:23 -0300
+Processing by HomeController#projects as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/projects.html.erb within layouts/application
+  [1m[36mProject Load (0.1ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/home/projects.html.erb:2
+  Rendered home/projects.html.erb within layouts/application (Duration: 4.0ms | Allocations: 4235)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 10321)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 10846)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:16:25 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 6065)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 6293)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:16:28 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6643)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 6881)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:16:28 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6074)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 6300)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:24:21 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 3.5ms | Allocations: 3406)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1098)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 28519)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.7ms | Allocations: 29860)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:24:32 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1104)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 28888)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.9ms | Allocations: 30225)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:24:34 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6663)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 6902)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:25:51 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 7.3ms | Allocations: 3882)
+  Rendered layouts/_banner.html.erb (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.5ms | Allocations: 1110)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 32.4ms | Allocations: 29042)
+Completed 200 OK in 36ms (Views: 31.9ms | ActiveRecord: 1.9ms | Allocations: 30384)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:25:57 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3860)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1116)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 18.7ms | Allocations: 29021)
+Completed 200 OK in 21ms (Views: 18.7ms | ActiveRecord: 0.9ms | Allocations: 30362)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:05 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 137)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1122)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 29024)
+Completed 200 OK in 30ms (Views: 27.5ms | ActiveRecord: 1.1ms | Allocations: 30361)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:07 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6662)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.1ms | Allocations: 6901)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:08 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6664)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 6902)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:08 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6648)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6886)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:46 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3899)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.8ms | Allocations: 1128)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 29151)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.9ms | Allocations: 30493)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:26:57 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 138)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1134)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 29033)
+Completed 200 OK in 25ms (Views: 22.8ms | ActiveRecord: 1.0ms | Allocations: 30375)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:27:13 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3880)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1140)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 28963)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 1.0ms | Allocations: 30304)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:27:28 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 136)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1146)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 29146)
+Completed 200 OK in 26ms (Views: 23.4ms | ActiveRecord: 1.0ms | Allocations: 30488)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:28:11 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3899)
+  Rendered layouts/_banner.html.erb (Duration: 0.8ms | Allocations: 137)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.3ms | Allocations: 1152)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 29.2ms | Allocations: 29151)
+Completed 200 OK in 32ms (Views: 29.2ms | ActiveRecord: 1.0ms | Allocations: 30493)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:28:29 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 6.1ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 139)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1158)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 28995)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 1.0ms | Allocations: 30337)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:04 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3880)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1164)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 29102)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 1.0ms | Allocations: 30444)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:20 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1170)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 28989)
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 1.0ms | Allocations: 30330)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:25 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.3ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.3ms | Allocations: 1176)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.6ms | Allocations: 29052)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 1.0ms | Allocations: 30394)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:29 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.1ms | Allocations: 3884)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered layouts/_about.html.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1182)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.6ms | Allocations: 29105)
+Completed 200 OK in 22ms (Views: 19.6ms | ActiveRecord: 0.9ms | Allocations: 30447)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:30 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6658)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.1ms | Allocations: 6897)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:30:47 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.5ms | Allocations: 147)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1188)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 29102)
+Completed 200 OK in 23ms (Views: 20.7ms | ActiveRecord: 1.3ms | Allocations: 30444)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:32:41 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1194)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 28999)
+Completed 200 OK in 22ms (Views: 19.2ms | ActiveRecord: 1.0ms | Allocations: 30340)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:32:50 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3882)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1200)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 29231)
+Completed 200 OK in 20ms (Views: 18.3ms | ActiveRecord: 0.9ms | Allocations: 30573)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:14 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1206)
+  Rendered layouts/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.7ms | Allocations: 29015)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.9ms | Allocations: 30357)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:15 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6664)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.1ms | Allocations: 6903)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:16 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 1.0ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 6645)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.1ms | Allocations: 6884)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:25 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.8ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1212)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 29116)
+Completed 200 OK in 24ms (Views: 20.5ms | ActiveRecord: 1.1ms | Allocations: 30457)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:30 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3903)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.2ms | Allocations: 1218)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.5ms | Allocations: 29170)
+Completed 200 OK in 22ms (Views: 19.5ms | ActiveRecord: 0.9ms | Allocations: 30512)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:30 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 6663)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 6902)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:34 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.0ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1224)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 29025)
+Completed 200 OK in 22ms (Views: 18.8ms | ActiveRecord: 1.0ms | Allocations: 30367)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:43 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1230)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 29146)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 1.0ms | Allocations: 30487)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:49 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3903)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.3ms | Allocations: 1236)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 29190)
+Completed 200 OK in 23ms (Views: 20.2ms | ActiveRecord: 1.0ms | Allocations: 30532)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:50 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 6649)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.1ms | Allocations: 6888)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:50 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6642)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6880)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:33:50 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6640)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6878)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:33:51 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6255)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6481)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:07 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 134)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1242)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 21.0ms | Allocations: 29054)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.9ms | Allocations: 30396)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:29 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3882)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1248)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 29177)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 1.0ms | Allocations: 30519)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:29 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6672)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 6911)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:30 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6652)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 6890)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:30 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 1.1ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 6644)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms | Allocations: 6883)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:37 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.5ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1254)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 29135)
+Completed 200 OK in 21ms (Views: 19.1ms | ActiveRecord: 0.9ms | Allocations: 30476)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:37 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6685)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 6924)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:38 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 6648)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 6886)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:38 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 1.0ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 6650)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.1ms | Allocations: 6888)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:38 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 1.4ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 6650)
+Completed 200 OK in 10ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 6889)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:39 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 1.3ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 6640)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.1ms | Allocations: 6878)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:39 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6648)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 6886)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:39 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 6650)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6888)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:39 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.9ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6667)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.1ms | Allocations: 6906)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:39 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 6660)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 6898)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:40 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 3.1ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 1.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 26.4ms | Allocations: 6646)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.2ms | Allocations: 6884)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:40 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 6654)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 6892)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:34:40 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 6645)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.1ms | Allocations: 6884)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:35:07 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3904)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1260)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 29285)
+Completed 200 OK in 23ms (Views: 20.3ms | ActiveRecord: 1.0ms | Allocations: 30627)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:35:13 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 4.4ms | Allocations: 3861)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1266)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 29084)
+Completed 200 OK in 26ms (Views: 24.2ms | ActiveRecord: 1.0ms | Allocations: 30426)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:35:16 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 6668)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 6908)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:35:18 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 6246)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 6472)
+
+
+Started GET "/home/feed" for ::1 at 2024-07-28 18:35:19 -0300
+Processing by HomeController#feed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/feed.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/home/feed.html.erb:2
+  Rendered home/feed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 583)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 6634)
+Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms | Allocations: 6873)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:35:32 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 113)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1272)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 25413)
+Completed 200 OK in 16ms (Views: 15.7ms | ActiveRecord: 0.0ms | Allocations: 26177)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:35:37 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1278)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.6ms | Allocations: 25471)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 26235)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:35:48 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1284)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 25484)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 26248)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:35:57 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 131)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1290)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 14.2ms | Allocations: 25452)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms | Allocations: 26216)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:36:06 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 163)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1296)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 25491)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 26255)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:39:10 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.7ms | Allocations: 218)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1302)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 25587)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms | Allocations: 26351)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:39:40 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.2ms | Allocations: 159)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 0.9ms | Allocations: 1308)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 18.6ms | Allocations: 25592)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 26356)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:39:52 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 155)
+  Rendered layouts/_about.html.erb (Duration: 0.3ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1314)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 25529)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 26293)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:39:53 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 6088)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 6315)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:40:12 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.4ms | Allocations: 159)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1320)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 20.4ms | Allocations: 25609)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.0ms | Allocations: 26373)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:40:13 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.4ms | Allocations: 312)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 6086)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 6313)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:40:13 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered layouts/_banner.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layouts/_about.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_tabs.html.erb (Duration: 0.3ms | Allocations: 305)
+  Rendered layouts/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 6070)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 6296)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:40:24 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.4ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.4ms | Allocations: 1326)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 34.6ms | Allocations: 25530)
+Completed 200 OK in 36ms (Views: 35.8ms | ActiveRecord: 0.0ms | Allocations: 26294)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:52:10 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 134)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.0ms | Allocations: 1332)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 49520)
+Completed 200 OK in 40ms (Views: 39.5ms | ActiveRecord: 0.0ms | Allocations: 50283)
+
+
+Started GET "/home/app/assets/images/calvitoria.png" for ::1 at 2024-07-28 18:52:11 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/home/app/assets/images/calvitoria.png"):
+  
+Started GET "/home/about" for ::1 at 2024-07-28 18:52:18 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1338)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 25618)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 26382)
+
+
+Started GET "/images/calvitoria.png" for ::1 at 2024-07-28 18:52:19 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/images/calvitoria.png"):
+  
+Started GET "/home/about" for ::1 at 2024-07-28 18:52:32 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.5ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.2ms | Allocations: 1344)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 25577)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 26341)
+
+
+Started GET "/home/about" for ::1 at 2024-07-28 18:53:03 -0300
+Processing by HomeController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/about.html.erb within layouts/application
+  Rendered home/about.html.erb within layouts/application (Duration: 0.6ms | Allocations: 161)
+  Rendered layouts/_banner.html.erb (Duration: 0.3ms | Allocations: 130)
+  Rendered layouts/_about.html.erb (Duration: 0.2ms | Allocations: 186)
+  Rendered layouts/_tabs.html.erb (Duration: 1.1ms | Allocations: 1350)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 39.5ms | Allocations: 53049)
+Completed 200 OK in 40ms (Views: 40.2ms | ActiveRecord: 0.0ms | Allocations: 53813)
+
+
