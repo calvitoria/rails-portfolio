@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="dim">
+<html data-theme="sunset">
   <head>
     <title>Vitória Calvi</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,19 +7,63 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag  "tailwind", "https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css", "inter-font", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     <script src="https://kit.fontawesome.com/49ad6a32f0.js" crossorigin="anonymous"></script>
   </head>
 
-  <body class="">
-    <main class="container w-default">
-      <%= render 'layouts/banner' %>
-      <%= render 'layouts/about' %>
-      <%= render 'layouts/tabs' %>
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-    </main>
+  <body class="w-default container">
+    <%= render 'layouts/banner' %>
+    <%= render 'layouts/about' %>
+    <%= render 'layouts/tabs' %>
+
+       <div class="flex justify-end p-4">
+      <!-- Theme switcher dropdown -->
+      <div class="dropdown dropdown-end">
+        <label tabindex="0" class="btn btn-primary m-1">Theme</label>
+        <ul tabindex="0" class="dropdown-content menu p-4 shadow bg-base-100 rounded-box w-52">
+          <li class="theme-option" data-theme="light">
+            <div class="flex items-center gap-2 cursor-pointer">
+              <div class="w-4 h-4 bg-primary"></div>
+              <div class="w-4 h-4 bg-secondary"></div>
+              <div class="w-4 h-4 bg-accent"></div>
+              <div class="w-4 h-4 bg-neutral"></div>
+              <span>Light</span>
+            </div>
+          </li>
+          <li class="theme-option" data-theme="dark">
+            <div class="flex items-center gap-2 cursor-pointer">
+              <div class="w-4 h-4 bg-primary"></div>
+              <div class="w-4 h-4 bg-secondary"></div>
+              <div class="w-4 h-4 bg-accent"></div>
+              <div class="w-4 h-4 bg-neutral"></div>
+              <span>Dark</span>
+            </div>
+          </li>
+          <li class="theme-option" data-theme="cupcake">
+            <div class="flex items-center gap-2 cursor-pointer">
+              <div class="w-4 h-4 bg-primary"></div>
+              <div class="w-4 h-4 bg-secondary"></div>
+              <div class="w-4 h-4 bg-accent"></div>
+              <div class="w-4 h-4 bg-neutral"></div>
+              <span>Cupcake</span>
+            </div>
+          </li>
+
+          <li class="theme-option" data-theme="sunset">
+            <div class="flex items-center gap-2 cursor-pointer">
+              <div class="w-4 h-4 bg-primary"></div>
+              <div class="w-4 h-4 bg-secondary"></div>
+              <div class="w-4 h-4 bg-accent"></div>
+              <div class="w-4 h-4 bg-neutral"></div>
+              <span>sunset</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <%= yield %>
+    <%= render 'layouts/footer' %>
   </body>
 </html>

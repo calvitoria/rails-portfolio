@@ -16,7 +16,19 @@
         </p>
       </div>
 
-      <img src="<%= project.image_url %>" alt="project picture" class="w-fit rounded-lg mt-4">
+      <div class="mockup-browser border-accent-content border mt-4">
+        <div class="mockup-browser-toolbar">
+          <div class="input border-base-300 border">
+            <a target="_blank" href="<%= project.project_url %>"
+              class="text-neutral-content hover:text-gray-600 focus:outline-none">
+                <%= project.project_url %>
+            </a>
+          </div>
+        </div>
+        <div class="border-accent-content flex justify-center border-t">
+          <img src="<%= project.image_url %>" alt="project picture" class="w-fit">
+        </div>
+      </div>
     </div>
   <% end %>
 </div>
