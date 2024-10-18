@@ -1,0 +1,29 @@
+<div class="container w-medium mt-8">
+  <% @posts.each do |post| %>
+    <div class="hover:bg-neutral shadow-md rounded-md overflow-hidden p-4">
+      <div class="flex pb-2">
+        <img src="https://github.com/user-attachments/assets/ccebd1ba-1b9e-4d61-9ffc-5caefad25c3f" alt="Profile Picture" class="h-14 w-14 rounded-full mr-2">
+        
+        <div>
+          <span class="text-lg font-semibold">Vitória Calvi 🌸</span>
+          <p class="text-md text-gray-600">@calvitoria</p>
+        </div>
+
+        <div>
+          <p class="text-sm text-neutral-content mt-1 ml-2">
+          • <%= post.updated_at.strftime("%d %b %Y") %>
+          </p>
+        </div>
+      </div>
+
+      <div class="pb-2">
+        <h2 class="text-2xl font-medium mb-2"> <%= post.title %> </h2>
+        <p class="text-lg text-neutral-content leading-tight">
+          <%= post.body %>
+        </p>
+      </div>
+
+      <img src="<%= post.image_url %>" alt="post picture" class="w-fit rounded-lg mt-4">
+    </div>
+  <% end %>
+</div>

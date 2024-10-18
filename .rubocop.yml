@@ -1,3 +1,5 @@
+inherit_from: .rubocop_todo.yml
+
 require:
   - rubocop-performance
   - rubocop-rails
@@ -6,6 +8,7 @@ AllCops:
   NewCops: enable
   Exclude:
     - bin/*
+  TargetRubyVersion: 3.3
 
 Bundler/OrderedGems:
   Enabled: false

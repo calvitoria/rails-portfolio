@@ -13,57 +13,11 @@
   </head>
 
   <body class="w-default container">
-    <%= render 'layouts/banner' %>
+    <%= render BannerComponent.new %>
     <%= render 'layouts/about' %>
-    <%= render 'layouts/tabs' %>
-
-       <div class="flex justify-end p-4">
-      <!-- Theme switcher dropdown -->
-      <div class="dropdown dropdown-end">
-        <label tabindex="0" class="btn btn-primary m-1">Theme</label>
-        <ul tabindex="0" class="dropdown-content menu p-4 shadow bg-base-100 rounded-box w-52">
-          <li class="theme-option" data-theme="light">
-            <div class="flex items-center gap-2 cursor-pointer">
-              <div class="w-4 h-4 bg-primary"></div>
-              <div class="w-4 h-4 bg-secondary"></div>
-              <div class="w-4 h-4 bg-accent"></div>
-              <div class="w-4 h-4 bg-neutral"></div>
-              <span>Light</span>
-            </div>
-          </li>
-          <li class="theme-option" data-theme="dark">
-            <div class="flex items-center gap-2 cursor-pointer">
-              <div class="w-4 h-4 bg-primary"></div>
-              <div class="w-4 h-4 bg-secondary"></div>
-              <div class="w-4 h-4 bg-accent"></div>
-              <div class="w-4 h-4 bg-neutral"></div>
-              <span>Dark</span>
-            </div>
-          </li>
-          <li class="theme-option" data-theme="cupcake">
-            <div class="flex items-center gap-2 cursor-pointer">
-              <div class="w-4 h-4 bg-primary"></div>
-              <div class="w-4 h-4 bg-secondary"></div>
-              <div class="w-4 h-4 bg-accent"></div>
-              <div class="w-4 h-4 bg-neutral"></div>
-              <span>Cupcake</span>
-            </div>
-          </li>
-
-          <li class="theme-option" data-theme="sunset">
-            <div class="flex items-center gap-2 cursor-pointer">
-              <div class="w-4 h-4 bg-primary"></div>
-              <div class="w-4 h-4 bg-secondary"></div>
-              <div class="w-4 h-4 bg-accent"></div>
-              <div class="w-4 h-4 bg-neutral"></div>
-              <span>sunset</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <%= render TabsComponent.new %>
 
     <%= yield %>
-    <%= render 'layouts/footer' %>
+    <div class="bg-primary mt-16"></div>
   </body>
 </html>
