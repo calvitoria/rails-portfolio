@@ -1,7 +1,7 @@
 class GuestPostsController < ApplicationController
   def index
     @guestpost = GuestPost.new
-    @guestposts = GuestPost.all.order(created_at: :desc)
+    @guestposts = GuestPost.order(created_at: :desc)
   end
 
   def create

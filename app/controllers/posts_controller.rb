@@ -9,7 +9,7 @@ class PostsController < ApplicationController
     if @guestpost.save
       redirect_to guestbook_path, notice: 'Your post has been added!'
     else
-      render :guestbook, status: :unprocessable_entity
+      render :index, status: :unprocessable_entity
     end
   end
 
