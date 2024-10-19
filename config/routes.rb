@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  root "home#index"
-  get "/posts", to: "posts#index"
-  get 'home/feed', to: 'home#feed'
-  get 'home/about', to: 'home#about'
-  get 'home/projects', to: 'home#projects'
-  get 'home/guestbook', to: 'home#guestbook'
+  root 'feed#index'
+  get '/feed', to: 'feed#index'
+  get '/posts', to: 'posts#index'
+  get '/about', to: 'about#index'
+  get '/projects', to: 'projects#index'
+  get '/guestbook', to: 'guest_posts#index'
 
-  get "/home", to: "home#index"
+  resources :guest_posts, only: [:create, :index]
 end

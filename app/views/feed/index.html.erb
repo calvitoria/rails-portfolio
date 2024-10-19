@@ -1,0 +1,5 @@
+<div class="container w-medium mt-8">
+  <% @posts.each do |post| %>
+    <%= render PostComponent.new(post: post) %>
+  <% end %>
+</div>

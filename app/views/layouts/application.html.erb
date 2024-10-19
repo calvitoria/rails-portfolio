@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="dim">
+<html data-theme="sunset">
   <head>
     <title>Vitória Calvi</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -7,19 +7,17 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
-
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag  "tailwind", "https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css", "inter-font", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
     <script src="https://kit.fontawesome.com/49ad6a32f0.js" crossorigin="anonymous"></script>
   </head>
 
-  <body class="">
-    <main class="container w-default">
-      <%= render 'layouts/banner' %>
-      <%= render 'layouts/about' %>
-      <%= render 'layouts/tabs' %>
-      <%= yield %>
-      <%= render 'layouts/footer' %>
-    </main>
+  <body class="w-default container">
+    <%= render BannerComponent.new %>
+    <%= render AboutComponent.new %>
+    <%= render TabsComponent.new %>
+
+    <%= yield %>
+    <div class="bg-primary mt-16"></div>
   </body>
 </html>
