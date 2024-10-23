@@ -15,4 +15,7 @@
 /coverage
 .byebug_history
 .vscode
-/public/*
+public/*
+tmp/
+storage/
+app/assets/builds/*

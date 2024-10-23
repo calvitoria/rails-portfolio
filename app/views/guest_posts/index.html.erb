@@ -2,6 +2,13 @@
   <p class="text-lg">You can leave your comments and feedback here =)</p>  
   <%= form_with model: @guestpost, url: guest_posts_path, local: true do |f| %>
     <div class="flex flex-col mt-4">
+      <%= f.label :avatar, class: "label font-bold text-gray-700 mb-1" %>
+      <%= f.file_field :avatar,
+        class: "input input-bordered text-secondary rounded-lg w-full",
+        placeholder: "Upload a nice photo that is not too risquee" %>
+    </div>
+
+    <div class="flex flex-col mt-4">
       <%= f.label :author, class: "label font-bold text-gray-700 mb-1" %>
       <%= f.text_field :author, 
         class: "input input-bordered text-secondary rounded-lg w-full", 
@@ -37,6 +44,10 @@
             <span class="text-sm text-neutral-content"> • <%= post.updated_at.strftime("%d %b %Y") %> </span> 
           </div>
         </div>
+
+        <% if post.avatar %>
+          <%= image_tag post.avatar, class: "rounded-lg" %>
+        <% end %>
 
         <div class="pb-2">
           <h2 class="text-2xl font-medium mb-2"> <%= post.title %> </h2>
