@@ -1,0 +1,17 @@
+<div class="hover:bg-neutral shadow-md rounded-md p-4 mb-4">
+  <div class="flex pb-2">
+    <div>
+      <span class="text-lg text-secondary"> <%= @guestpost.author %> </span>
+      <span class="text-sm text-neutral-content"> • <%= @guestpost.updated_at.strftime("%d %b %Y") %> </span>
+    </div>
+  </div>
+  <div class="pb-2">
+    <h2 class="text-2xl font-medium mb-2"> <%= @guestpost.title %> </h2>
+    <p class="text-lg text-neutral-content leading-tight max-h-60 overflow-y-auto">
+      <%= @guestpost.body %>
+    </p>
+  </div>
+  <div>
+    <%= calvatar_for(@guestpost.author) %>
+  </div>
+</div>

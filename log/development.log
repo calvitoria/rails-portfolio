@@ -39937,3 +39937,596 @@ Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2669)
   
 ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
   
+Started GET "/feed" for ::1 at 2024-10-19 16:35:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FeedController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering feed/index.html.erb within layouts/application
+  [1m[36mPost Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/feed/index.html.erb:2
+  Rendered feed/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 11749)
+  Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 18686)
+Completed 200 OK in 40ms (Views: 25.9ms | ActiveRecord: 1.1ms | Allocations: 28213)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/guestbook" for ::1 at 2024-10-19 16:35:53 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 2722)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 4157)
+Completed 200 OK in 19ms (Views: 9.3ms | ActiveRecord: 0.7ms | Allocations: 8778)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/guestbook" for ::1 at 2024-10-19 16:36:46 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2645)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2733)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 1.0ms | Allocations: 7408)
+
+
+  
+ActionView::Template::Error (missing keyword: :guestpost):
+    29: 
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <%= render GuestPostComponent.new %>
+    33:   </div>
+    34: </div>
+  
+app/components/guest_post_component.rb:4:in `initialize'
+app/views/guest_posts/index.html.erb:32:in `new'
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:37:20 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 2619)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2707)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.1ms | Allocations: 7368)
+
+
+  
+ActionView::Template::Error (missing keyword: :guestPost):
+    29: 
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <%= render GuestPostComponent.new %>
+    33:   </div>
+    34: </div>
+  
+app/components/guest_post_component.rb:4:in `initialize'
+app/views/guest_posts/index.html.erb:32:in `new'
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:38:44 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3168)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3256)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 1.3ms | Allocations: 7917)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0; required keyword: guestpost)):
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:      
+    34:       <%= render GuestPostComponent.new(guestpost) %>
+    35:     <% end %>
+    36:   </div>
+    37: </div>
+  
+app/components/guest_post_component.rb:4:in `initialize'
+app/views/guest_posts/index.html.erb:34:in `new'
+app/views/guest_posts/index.html.erb:34
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:40:05 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 1.8ms | Allocations: 2388)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 2475)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 2754)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0; required keyword: guestpost)):
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:      
+    34:       <%= render GuestPostComponent.new(guestpost) %>
+    35:     <% end %>
+    36:   </div>
+    37: </div>
+  
+app/components/guest_post_component.rb:4:in `initialize'
+app/views/guest_posts/index.html.erb:34:in `new'
+app/views/guest_posts/index.html.erb:34
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:40:40 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.3ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3571)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3659)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.4ms | Allocations: 8325)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `guestpost' for an instance of GuestPostComponent):
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:      
+    34:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    35:     <% end %>
+    36:   </div>
+    37: </div>
+  
+app/components/guest_post_component.html.erb:4:in `call'
+app/views/guest_posts/index.html.erb:34
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:42:52 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 3548)
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3636)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms | Allocations: 8295)
+
+
+  
+ActionView::Template::Error (undefined method `author' for nil):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:4:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:42:55 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 2652)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2739)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3018)
+
+
+  
+ActionView::Template::Error (undefined method `author' for nil):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:4:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:43:00 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 2652)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2739)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms | Allocations: 3018)
+
+
+  
+ActionView::Template::Error (undefined method `author' for nil):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:4:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:43:17 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 3190)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 3278)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.1ms | Allocations: 7935)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `byebug' for an instance of GuestPostComponent):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:6:in `initialize'
+app/views/guest_posts/index.html.erb:33:in `new'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:43:24 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 3193)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3281)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 1.7ms | Allocations: 7935)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `byebug' for class GuestPostComponent):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:43:37 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 3577)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 3665)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.6ms | Allocations: 8319)
+
+
+  
+ActionView::Template::Error (undefined method `author' for nil):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:4:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:44:27 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2679)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 7788)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 1.3ms | Allocations: 12453)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/guestbook" for ::1 at 2024-10-19 16:48:18 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2724)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2811)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.1ms | Allocations: 3097)
+
+
+  
+ActionView::Template::Error (undefined method `calvatar_for' for an instance of GuestPostComponent):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:15:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:49:37 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 3203)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 3291)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 1.3ms | Allocations: 7945)
+
+
+  
+ActionView::Template::Error (uninitialized constant GuestPostComponent::CalvatarHelper):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:50:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5933)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 6055)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.3ms | Allocations: 25593)
+
+
+  
+ActionView::Template::Error (uninitialized constant GuestPostComponent::CalvatarHelper):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:54:29 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 5936)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 6058)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.4ms | Allocations: 25596)
+
+
+  
+ActionView::Template::Error (uninitialized constant GuestPostComponent::CalvatarHelper):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 16:59:12 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.2ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 5936)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 6058)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 1.6ms | Allocations: 25589)
+
+
+  
+ActionView::Template::Error (uninitialized constant GuestPostComponent::CalvatarHelper):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 17:05:18 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 5894)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 6016)
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 1.2ms | Allocations: 25559)
+
+
+  
+ActionView::Template::Error (uninitialized constant GuestPostComponent::CalvatarHelper):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.rb:4:in `<class:GuestPostComponent>'
+app/components/guest_post_component.rb:3:in `<main>'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 17:06:04 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 3881)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3969)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 1.1ms | Allocations: 8647)
+
+
+  
+ActionView::Template::Error (undefined method `calvatar_for' for an instance of GuestPostComponent):
+    30:   <h2 class="mt-8 text-xl font-bold">Previous Posts</h2>
+    31:   <div class="mt-4 mb-4">
+    32:     <% @guestposts.each do |guestpost| %>
+    33:       <%= render GuestPostComponent.new(guestpost: guestpost) %>
+    34:     <% end %>
+    35:   </div>
+    36: </div>
+  
+app/components/guest_post_component.html.erb:15:in `call'
+app/views/guest_posts/index.html.erb:33
+app/views/guest_posts/index.html.erb:32
+Started GET "/guestbook" for ::1 at 2024-10-19 17:07:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5347)
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 10691)
+Completed 200 OK in 41ms (Views: 18.0ms | ActiveRecord: 1.2ms | Allocations: 30266)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started POST "/guest_posts" for ::1 at 2024-10-19 17:07:42 -0300
+Processing by GuestPostsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "guest_post"=>{"author"=>"caetano araujo", "title"=>"", "body"=>""}, "commit"=>"Post"}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/guest_posts_controller.rb:10:in `create'
+  [1m[36mGuestPost Create (15.1ms)[0m  [1m[32mINSERT INTO "guest_posts" ("title", "body", "created_at", "updated_at", "author") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["title", ""], ["body", ""], ["created_at", "2024-10-19 20:07:42.596542"], ["updated_at", "2024-10-19 20:07:42.596542"], ["author", "caetano araujo"]]
+  ↳ app/controllers/guest_posts_controller.rb:10:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/guest_posts_controller.rb:10:in `create'
+Redirected to http://localhost:3000/guestbook
+Completed 302 Found in 22ms (ActiveRecord: 16.3ms | Allocations: 3373)
+
+
+Started GET "/guestbook" for ::1 at 2024-10-19 17:07:42 -0300
+Processing by GuestPostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering guest_posts/index.html.erb within layouts/application
+  [1m[36mGuestPost Load (0.1ms)[0m  [1m[34mSELECT "guest_posts".* FROM "guest_posts" ORDER BY "guest_posts"."created_at" DESC[0m
+  ↳ app/views/guest_posts/index.html.erb:32
+  Rendered guest_posts/index.html.erb within layouts/application (Duration: 4.7ms | Allocations: 1798)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 3221)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.1ms | Allocations: 3515)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/projects" for ::1 at 2024-10-20 15:40:42 -0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (1.3ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:2
+  Rendered projects/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 6973)
+  Rendered layout layouts/application.html.erb (Duration: 17.1ms | Allocations: 8739)
+Completed 200 OK in 20ms (Views: 15.7ms | ActiveRecord: 2.4ms | Allocations: 9572)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/" for ::1 at 2024-10-23 13:30:27 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by FeedController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering feed/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/feed/index.html.erb:2
+  Rendered feed/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 11754)
+  Rendered layout layouts/application.html.erb (Duration: 28.7ms | Allocations: 17605)
+Completed 200 OK in 46ms (Views: 30.8ms | ActiveRecord: 1.2ms | Allocations: 27136)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/feed" for ::1 at 2024-10-23 13:30:33 -0300
+Processing by FeedController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering feed/index.html.erb within layouts/application
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/feed/index.html.erb:2
+  Rendered feed/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 705)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2412)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.1ms | Allocations: 2665)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/about" for ::1 at 2024-10-23 13:30:34 -0300
+Processing by AboutController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering about/index.html.erb within layouts/application
+  Rendered about/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1863)
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 2267)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
+Started GET "/projects" for ::1 at 2024-10-23 13:30:36 -0300
+Processing by ProjectsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering projects/index.html.erb within layouts/application
+  [1m[36mProject Load (0.2ms)[0m  [1m[34mSELECT "projects".* FROM "projects"[0m
+  ↳ app/views/projects/index.html.erb:2
+  Rendered projects/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 5891)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 7630)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.5ms | Allocations: 8456)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/theme_switcher"):
+  
