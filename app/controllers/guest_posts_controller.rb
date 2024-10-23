@@ -6,6 +6,7 @@ class GuestPostsController < ApplicationController
 
   def create
     @guestpost = GuestPost.new(guestpost_params)
+    @guestpost.avatar.attach(guestpost_params[:avatar])
 
     if @guestpost.save
       redirect_to guestbook_path
@@ -18,6 +19,6 @@ class GuestPostsController < ApplicationController
   private
 
   def guestpost_params
-    params.require(:guest_post).permit(:author, :title, :body)
+    params.require(:guest_post).permit(:author, :title, :body, :avatar)
   end
 end
